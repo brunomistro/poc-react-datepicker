@@ -1,11 +1,9 @@
-import Image from "next/image";
+import ComponentRange from "./ComponentRange";
 
 export default function Home() {
   return (
-    <main>
-      <div></div>
-      <div></div>
-      <div></div>
+    <main className="h-screen flex justify-center items-center bg-gray-300">
+      <ComponentRange />
     </main>
   );
 }

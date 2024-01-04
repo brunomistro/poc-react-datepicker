@@ -1,0 +1,33 @@
+:root {
+  --purple: #6834e2 !important;
+  --hover-color: #73ff91 !important;
+  --text-hover: #fff !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__close-icon::after {
+  background-color: var(--purple);
+  color: var(--text-hover);
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__day--selected:hover,
+.react-datepicker__day--keyboard-selected:hover,
+.react-datepicker__day--in-selecting-range:hover,
+.react-datepicker__day--in-range:hover {
+  background-color: var(--hover-color);
+  color: var(--text-hover);
+}
+
+/* Examples diferents color for other components */
+/* .react-datepicker__close-icon::after {
+  background-color: #e23434 !important;
+  color: #fff !important;
+}
+.react-datepicker__day--keyboard-selected {
+  background-color: #34e23d !important;
+  color: #fff !important;
+} */
